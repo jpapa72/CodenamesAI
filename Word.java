@@ -5,19 +5,21 @@ public class Word {
 	// Card colors
 	final static int RED = 0;
 	final static int BLUE = 1;
-	final static int WHITE = 2;
-	final static int BLACK = 3;	// Assassin
+	final static int BLACK = 2;	// Assassin
+	final static int WHITE = 3;
 	
 	String word;				// Actual word on card
 	String[][] identifiers;		// Words related to word on card. Rated 0-3, 0 being least related, 3 being most related
 	int numIdentifiers;
 	int color;
+	boolean chosen;
 	
 	public Word(String word, String[][] identifiers){
 		this.word = word;
 		this.identifiers = identifiers;
 		numIdentifiers = identifiers[0].length + identifiers[1].length + identifiers[2].length + identifiers[3].length;
 		color = WHITE;	// Can be changed
+		chosen = false;
 	}
 	
 	public void setColor(int color){
@@ -58,7 +60,37 @@ public class Word {
 		return color;
 	}
 	
+	public void choose(){
+		chosen = true;
+	}
+	
+	public void unchoose(){
+		chosen = false;
+	}
+	
+	public String printColor(){
+		if(color == RED)
+			return "RED";
+		if(color == BLUE)
+			return "BLUE";
+		if(color == BLACK)
+			return "BLACK";
+		return "WHITE";
+	}
+	
+	public char printColorChar(){
+		if(color == RED)
+			return 'R';
+		if(color == BLUE)
+			return 'B';
+		if(color == BLACK)
+			return 'A';
+		return 'W';
+	}
+	
 	public String toString(){
+		if(chosen)
+			return "[" + printColor() + "]";
 		return word;
 	}
 	

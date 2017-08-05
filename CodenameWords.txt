@@ -1,152 +1,152 @@
 25
 
 America
-ocean 
-border canada internet yard 
+ocean government 
+border canada internet place yard colonies independence
 
-
+states
 
 Apple
-internet 
-electronic 
+internet candy
+electronic sweet roll
 food 
-macintosh 
+fruit iphone macintosh 
 
 Blimp
 electronic metal 
-
-
-
+suspended
+hydrogen
+fly vehicle helium
 
 Calculator
 internet macintosh sun 
 metal 
 electronic 
-
+numbers
 
 Computer
-
-metal 
-electronic 
-internet macintosh 
+vehicle net space numbers
+metal movie podcast
+electronic game print
+internet macintosh pc 
 
 Chocolate
+cube
 
-
-food 
-
+food sweet
+dessert candy
 
 Dice
+spots
 
-
-
-
+casino game roll numbers
+luck cube
 
 Water
 
-food 
-
+food net
+hydrogen
 ocean 
 
 Day
 yard 
-
-sun 
-
+labor
+sun independence
+christmas
 
 Dog
-
-food 
-yard 
-
+game spots
+food tracks stick
+living yard
+pet cat
 
 Film
-
+casino
 internet 
 
-
+movie
 
 Fence
-metal 
+metal pet
 border 
 
 yard 
 
 Hockey
+day
 
-
-canada 
-
+canada game pads
+sport stick puck net
 
 Blacksmith
-
-
+nail
+labor iron
 
 metal 
 
 Lawyer
+government
 
-
-
+living 
 
 
 Maple
 food sun 
 yard 
-
+sweet 
 canada 
 
 Moon
 ocean 
-
+place suspended
 sun 
-
+space
 
 Queen
-canada 
+canada colonies
 
-
+band living government
 
 
 Rome
-border ocean 
+border ocean government
 
-
-
+place 
+italy 
 
 Rose
-sun 
-yard 
+green 
+living sun yard 
 
 petal 
 
 Song
-
-internet metal 
-
+tracks
+internet metal track christmas
+band 
 
 
 Microphone
-
+tracks track movie
 metal 
-electronic 
-
+band electronic 
+podcast
 
 Mine
+place 
 
-
-metal 
-
+metal track tracks
+iron pickaxe
 
 Thumb
-
+living stick
 green 
 
-
+print nail
 
 Train
-electronic 
-metal 
+electronic podcast
+metal roll
 
-
+vehicle tracks track
 
