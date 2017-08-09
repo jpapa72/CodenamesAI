@@ -159,6 +159,24 @@ public class Game {
 						System.out.println(words[i].word + " is correct. Out of turns!");
 						break;
 					} else {
+						redWordsLeft = 0;
+						blueWordsLeft = 0;
+						for(int j = 0; j < words.length; j++){
+							if(words[j].chosen) continue;
+							if(words[j].color == Word.RED)
+								redWordsLeft++;
+							else if(words[j].color == Word.BLUE)
+								blueWordsLeft++;
+						}
+						if(redWordsLeft == 0) {
+							print(true);
+							System.out.println("Red Team Wins!");
+							System.exit(0);
+						} else if(blueWordsLeft == 0) {
+							print(true);
+							System.out.println("Blue Team Wins!");
+							System.exit(0);
+						}
 						print(devmode);
 						System.out.println(words[i].word + " is correct. Keep Guessing or Pass!");
 						continue;
@@ -264,9 +282,13 @@ public class Game {
 			System.out.print("|\t");
 			for(int j = 0; j < 5; j++){
 				if(print_color) {
-					System.out.print(words[j*5 + i] + " [" + words[j*5 + i].printColorChar() +"]" + "\t");
-					if(words[j*5 + i].getWord().length() + 4 < 8)
-						System.out.print("\t");
+					if(words[j*5 + i].chosen) {
+						System.out.print("   [" + words[j*5 + i].printColorChar() +"]" + "\t\t");
+					} else {
+						System.out.print(words[j*5 + i] + " [" + words[j*5 + i].printColorChar() +"]" + "\t");
+						if(words[j*5 + i].getWord().length() + 4 < 8)
+							System.out.print("\t");
+					}
 				} else {
 					System.out.print(words[j*5 + i] + "\t");
 					if(words[j*5 + i].getWord().length() < 8 || words[j*5 + i].chosen)

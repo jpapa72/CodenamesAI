@@ -81,12 +81,12 @@ public class Identifier {
 		}
 		
 		for(int i = 3; i >= 0; i--){
-			if(red[i] > 0)
+			if(red[i] >= 0)
 				forRed += red[i];
 			else break;
 		}
 		for(int i = 3; i >= 0; i--){
-			if(blue[i] > 0)
+			if(blue[i] >= 0)
 				forBlue += blue[i];
 			else break;
 		}
