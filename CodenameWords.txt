@@ -8,8 +8,8 @@ states
 
 Apple
 candy internet 
-electronic object roll round small sweet red
-food tree bee
+electronic object roll round small sweet big bee
+food tree red green
 fruit iphone macintosh 
 
 Blimp
@@ -61,8 +61,8 @@ living yard whistle smell
 cat pet 
 
 Film
-casino music small war halloween christmas
-internet long object screen hear
+casino music small war halloween christmas round
+internet long object screen hear period
 art 
 movie 
 
@@ -75,7 +75,7 @@ yard
 Hockey
 day smell
 sweat
-game pads ice
+game pads ice period
 net puck sport stick canada
 
 Blacksmith
@@ -91,7 +91,7 @@ debt job living
 litigation 
 
 Maple
-food sun liquid bee
+food sun liquid bee living
 yard smell red
 sweet tree
 canada 
@@ -149,4 +149,3 @@ big electronic podcast
 long metal object roll hear gps
 whistle loud
 track tracks vehicle 
-
